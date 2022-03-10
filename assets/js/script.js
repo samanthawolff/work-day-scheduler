@@ -110,9 +110,10 @@ function colorCode() {
 colorCode();
 
 document.getElementById("saveBtn").addEventListener("click", function() {
-    var textInput = document.getElementById("schedule-text-1".value);
-    localStorage.setItem("textInput", textInput);
-    localStorage.getItem("textInput", textInput);
+    var textInput = document.getElementById("#schedule-text-1".input);
+    localStorage.setItem("#textInput", textInput);
+    localStorage.getItem("#textInput", textInput);
+    
     console.log("value");
 });
 
