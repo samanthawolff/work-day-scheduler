@@ -2,6 +2,7 @@ var todaysDate = moment().format('L');
 $("#currentDay").html("Current Date: " + todaysDate);
 
 var currentHour = moment().hour();
+console.log(currentHour);
 
 function colorCode() {
     // 9AM color coding and test dummy
@@ -49,10 +50,10 @@ function colorCode() {
     };
 
     // 1PM color coding
-    if (currentHour === 1) {
+    if (currentHour === 13) {
         $("#schedule-text-4").addClass("present");
     }
-    else if (currentHour > 1) {
+    else if (currentHour > 13) {
         $("#schedule-text-4").addClass("past");
     }
     else {
@@ -60,10 +61,10 @@ function colorCode() {
     };
 
     // 2PM color coding
-    if (currentHour === 2) {
+    if (currentHour === 14) {
         $("#schedule-text-5").addClass("present");
     }
-    else if (currentHour > 2) {
+    else if (currentHour > 14) {
         $("#schedule-text-5").addClass("past");
     }
     else {
@@ -71,10 +72,10 @@ function colorCode() {
     };
 
     // 3PM color coding
-    if (currentHour === 3) {
+    if (currentHour === 15) {
         $("#schedule-text-6").addClass("present");
     }
-    else if (currentHour > 3) {
+    else if (currentHour > 15) {
         $("#schedule-text-6").addClass("past");
     }
     else {
@@ -82,10 +83,10 @@ function colorCode() {
     };
 
     // 4PM color coding
-    if (currentHour === 4) {
+    if (currentHour === 16) {
         $("#schedule-text-7").addClass("present");
     }
-    else if (currentHour > 4) {
+    else if (currentHour > 16) {
         $("#schedule-text-7").addClass("past");
     }
     else {
@@ -93,10 +94,10 @@ function colorCode() {
     };
 
     // 5PM color coding
-    if (currentHour === 5) {
+    if (currentHour === 17) {
         $("#schedule-text-8").addClass("present");
     }
-    else if (currentHour > 5) {
+    else if (currentHour > 17) {
         $("#schedule-text-8").addClass("past");
     }
     else {
