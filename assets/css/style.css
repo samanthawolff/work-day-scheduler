@@ -63,11 +63,16 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
+    background-image: url("http://www.w3.org/2000/svg");
     color: white;
   }
-  
+
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+  }
+
+  .btn-svg {
+      position: relative;
   }
   
