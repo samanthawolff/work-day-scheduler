@@ -4,6 +4,8 @@ $("#currentDay").html("Current Date: " + todaysDate);
 var currentHour = moment().hour();
 console.log(currentHour);
 
+// var saveBtn = $("#saveBtn");
+
 function colorCode() {
     // 9AM color coding and test dummy
     if (currentHour === 9) {
@@ -103,8 +105,14 @@ function colorCode() {
     else {
         $("#schedule-text-8").addClass("future");
     };
-
-
-}
+};
 
 colorCode();
+
+document.getElementById("saveBtn").addEventListener("click", function() {
+    var textInput = document.getElementById("schedule-text-1".value);
+    localStorage.setItem("textInput", textInput);
+    localStorage.getItem("textInput", textInput);
+    console.log("value");
+});
+
