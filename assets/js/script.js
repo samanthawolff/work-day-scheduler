@@ -109,11 +109,38 @@ function colorCode() {
 
 colorCode();
 
+/* $(".saveBtn").on("click", function() {
+    var textInput = $(this).siblings(".text-input").val();
+    var textArea = $(this).parent().attr("id");
+
+    localStorage.setItem(textArea, textInput);
+});
+
+$("#9am .text-input").val(localStorage.getItem("9am")); */
+
+
+$("#saveBtn").on("click", function() {
+    var textInput = $("#schedule-text-1");
+    var value = $("#9am");
+
+    localStorage.setItem(textInput, value);
+});
+
+localStorage.getItem(textInput, value);
+
+
+
+/* var textInput = document.getElementById("schedule-text-1");
+var value = document.getElementById("9am");
+
+
 document.getElementById("saveBtn").addEventListener("click", function() {
-    var textInput = document.getElementById("#schedule-text-1".input);
-    localStorage.setItem("#textInput", textInput);
-    localStorage.getItem("#textInput", textInput);
+
+    localStorage.setItem(textInput, value);
+    
     
     console.log("value");
 });
+
+localStorage.getItem(textInput, value); */
 
