@@ -1,5 +1,5 @@
 # Work Day Scheduler
-Tired of being tired? Tired of all the hubbub that comes with day to day life? Well me too! Fortunately there are millions others struggling with the same thing, you're not alone. Unfortunately, though, this website will not cure that. But, it will make your daily hubbub just a little but easier to organize! With this scheduler you can keep track of all those due dates, deadlines, and daily duties. 
+Tired of being tired? Tired of all the hubbub that comes with day to day life? Well me too! Fortunately there are millions others struggling with the same thing, you're not alone. Unfortunately, though, this website will not help that. But, it will make your daily hubbub just a little bit easier to organize! With this scheduler you can keep track of all those due dates, deadlines, and daily duties. 
 ![Screen Shot 2022-03-11 at 6 23 42 PM (2)](https://user-images.githubusercontent.com/97822299/157995185-f8f3c343-5ffb-442f-8523-33755fea8b44.jpg)
 # Features: 
 * The current date is displayed at the top of the page.
