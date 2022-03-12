@@ -109,38 +109,40 @@ function colorCode() {
 
 colorCode();
 
+// Saving to localStorage
 $(".saveBtn").on("click", function() {
     var textInput = $(this).siblings(".text-input").val();
     var textArea = $(this).parent().attr("id");
 
     localStorage.setItem(textArea, textInput);
+    console.log("saved")
 });
 
+// Get 9am
 $("#9am .text-input").val(localStorage.getItem("9am"));
 
+// Get 10am
 $("#10am .text-input").val(localStorage.getItem("10am"));
 
+// Get 11am
 $("#11am .text-input").val(localStorage.getItem("11am"));
 
+// Get 12pm
 $("#12pm .text-input").val(localStorage.getItem("12pm"));
 
+// Get 1pm
 $("#1pm .text-input").val(localStorage.getItem("1pm"));
 
+// Get 2pm
 $("#2pm .text-input").val(localStorage.getItem("2pm"));
 
+// Get 3pm
 $("#3pm .text-input").val(localStorage.getItem("3pm"));
 
+// Get 4pm
 $("#4pm .text-input").val(localStorage.getItem("4pm"));
 
+// Get 5pm
 $("#5pm .text-input").val(localStorage.getItem("5pm"));
 
-
-/* $("#saveBtn").on("click", function() {
-    var textInput = $("#schedule-text-1");
-    var value = $("#9am");
-
-    localStorage.setItem(textInput, value);
-});
-
-localStorage.getItem(textInput, value); */
 
