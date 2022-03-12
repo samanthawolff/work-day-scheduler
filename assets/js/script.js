@@ -109,37 +109,37 @@ function colorCode() {
 
 colorCode();
 
-/* $(".saveBtn").on("click", function() {
+$(".saveBtn").on("click", function() {
     var textInput = $(this).siblings(".text-input").val();
     var textArea = $(this).parent().attr("id");
 
     localStorage.setItem(textArea, textInput);
 });
 
-$("#9am .text-input").val(localStorage.getItem("9am")); */
+$("#9am .text-input").val(localStorage.getItem("9am"));
+
+$("#10am .text-input").val(localStorage.getItem("10am"));
+
+$("#11am .text-input").val(localStorage.getItem("11am"));
+
+$("#12pm .text-input").val(localStorage.getItem("12pm"));
+
+$("#1pm .text-input").val(localStorage.getItem("1pm"));
+
+$("#2pm .text-input").val(localStorage.getItem("2pm"));
+
+$("#3pm .text-input").val(localStorage.getItem("3pm"));
+
+$("#4pm .text-input").val(localStorage.getItem("4pm"));
+
+$("#5pm .text-input").val(localStorage.getItem("5pm"));
 
 
-$("#saveBtn").on("click", function() {
+/* $("#saveBtn").on("click", function() {
     var textInput = $("#schedule-text-1");
     var value = $("#9am");
 
     localStorage.setItem(textInput, value);
-});
-
-localStorage.getItem(textInput, value);
-
-
-
-/* var textInput = document.getElementById("schedule-text-1");
-var value = document.getElementById("9am");
-
-
-document.getElementById("saveBtn").addEventListener("click", function() {
-
-    localStorage.setItem(textInput, value);
-    
-    
-    console.log("value");
 });
 
 localStorage.getItem(textInput, value); */
